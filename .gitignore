@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# RAG / Vector Store
+vectorstore/
+chroma_db/
+chroma/
+.faiss/
+# RAG source documents and generated data
+data/documents/
+data/chunks.json
+
+# Generated / Temporary Files
+*.tmp
+*.temp
+*.cache
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Testing / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
