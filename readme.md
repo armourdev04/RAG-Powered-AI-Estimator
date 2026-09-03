@@ -61,3 +61,8 @@ Streamlit will provide a local URL, typically:
 http://localhost:8501
 
 Open it in your browser, enter your estimation-related query, and the application will retrieve relevant information from the knowledge base before generating the final AI-powered estimate.
+##
+
+Demo
+
+![RAG Search Engine Demo](Screenshot%202026-09-04%20014745.png)
